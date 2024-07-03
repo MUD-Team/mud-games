@@ -1,1 +1,1 @@
-game_name = "Blasphemer"
+game_name = "Blasphemer";

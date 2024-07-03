@@ -1,1 +1,1 @@
-game_name = "Freedoom"
+game_name = "Freedoom";
