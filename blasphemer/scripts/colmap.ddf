@@ -1,0 +1,83 @@
+//
+//    EDGE COLMAP.DDF -redefine or add new color maps.
+//    For documentation, see https://edge-classic.github.io/
+//
+
+<COLOURMAPS>
+
+// For Heretics's invulnerability power-up you get a gold tinted screen instead of the monochrome white
+[ALLWHITE]
+gl_colour=#B0B000; 
+
+[BERSERK]
+
+[FOG_BLUE]
+GL_COLOUR = #0000D9;
+
+[FOG_GREEN]
+GL_COLOUR = #006619;
+
+[FOG_RED]
+GL_COLOUR = #B30000;
+
+[FOG_YELLOW]
+GL_COLOUR = #D9D900;
+
+[FOG_PURPLE]
+GL_COLOUR = #6C00D9;
+
+[FOG_WHITE]
+GL_COLOUR = #CACACA;
+
+[YELLOW]
+gl_colour = #FFFF00;
+//special = NO_FLASH;
+
+[PURPLE]
+gl_colour = #8000FF;
+//special = NO_FLASH;
+
+[GREY]
+gl_colour = #171717;
+//special = NO_FLASH;
+
+// ----- Text Colour remaps ---------------
+
+[TEXT_RED]
+gl_colour = #FF2222;
+
+[TEXT_WHITE]
+gl_colour = #FFFFFF;
+
+[TEXT_GREY]
+gl_colour = #AAAAAA;
+
+[TEXT_GREEN]
+gl_colour = #33FF33;
+
+[TEXT_LT_BLUE]
+gl_colour = #77BBFF;
+
+[TEXT_BLUE]
+gl_colour = #2222FF;
+
+[TEXT_YELLOW]
+gl_colour = #FFFF22;
+
+[TEXT_ORANGE]
+gl_colour = #FFAA22;
+
+[TEXT_BROWN]
+gl_colour = #993311;
+
+[TEXT_BEIGE]
+gl_colour = #BB7B4B;
+
+[TEXT_PINK]
+gl_colour = #FFBBBB;
+
+[TEXT_PURPLE]
+gl_colour = #FF33FF;
+
+[TEXT_GREYBLUE_LIGHT]
+gl_colour = #4c79ff;
