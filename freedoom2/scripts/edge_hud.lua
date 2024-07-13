@@ -513,7 +513,6 @@ function edge_air_bar()
 
     --edge_draw_bar(TopX, TopY, BarHeight, BarLength, MaxValue, CurrentValue)
     edge_draw_bar(BarLocation, BarHeight, BarLength, BarMaxValue, CurrentValue, hud.BLACK, hud.LIGHTBLUE)
-    hud.play_sound("HEARTBT1")
 end
 
 function edge_time_bar()
@@ -540,7 +539,6 @@ function edge_time_bar()
 
     --edge_draw_bar(TopX, TopY, BarHeight, BarLength, MaxValue, CurrentValue)
     edge_draw_bar(BarLocation, BarHeight, BarLength, BarMaxValue, CurrentValue, hud.BLACK, hud.PURPLE)
-    hud.play_sound("HEARTBT1")
 end
 
 --***********************
