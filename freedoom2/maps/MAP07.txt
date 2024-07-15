@@ -1,0 +1,503 @@
+namespace = "edge-classic";
+
+vertex	// 0
+{
+	x = -544.0;
+	y = 448.0;
+}
+
+vertex	// 1
+{
+	x = 384.0;
+	y = 288.0;
+	zfloor = 50.0;
+}
+
+vertex	// 2
+{
+	x = 672.0;
+	y = 448.0;
+}
+
+vertex	// 3
+{
+	x = 640.0;
+	y = -480.0;
+}
+
+vertex	// 4
+{
+	x = -32.0;
+	y = -576.0;
+}
+
+vertex	// 5
+{
+	x = -544.0;
+	y = -448.0;
+}
+
+vertex	// 6
+{
+	x = 192.0;
+	y = 288.0;
+	zfloor = 50.0;
+}
+
+vertex	// 7
+{
+	x = 192.0;
+	y = -32.0;
+}
+
+vertex	// 8
+{
+	x = 384.0;
+	y = -32.0;
+}
+
+vertex	// 9
+{
+	x = -192.0;
+	y = 288.0;
+	zfloor = -50.0;
+}
+
+vertex	// 10
+{
+	x = -384.0;
+	y = 288.0;
+	zfloor = -50.0;
+}
+
+vertex	// 11
+{
+	x = -384.0;
+	y = -32.0;
+}
+
+vertex	// 12
+{
+	x = -192.0;
+	y = -32.0;
+}
+
+vertex	// 13
+{
+	x = -96.0;
+	y = -352.0;
+}
+
+vertex	// 14
+{
+	x = -96.0;
+	y = -160.0;
+}
+
+vertex	// 15
+{
+	x = 96.0;
+	y = -160.0;
+}
+
+vertex	// 16
+{
+	x = 96.0;
+	y = -352.0;
+}
+
+linedef	// 0
+{
+	v1 = 1;
+	v2 = 8;
+	sidefront = 0;
+	sideback = 1;
+	twosided = true;
+}
+
+linedef	// 1
+{
+	v1 = 2;
+	v2 = 3;
+	sidefront = 2;
+	sideback = -1;
+	blocking = true;
+}
+
+linedef	// 2
+{
+	v1 = 3;
+	v2 = 4;
+	sidefront = 3;
+	sideback = -1;
+	blocking = true;
+}
+
+linedef	// 3
+{
+	v1 = 4;
+	v2 = 5;
+	sidefront = 4;
+	sideback = -1;
+	blocking = true;
+}
+
+linedef	// 4
+{
+	v1 = 5;
+	v2 = 0;
+	sidefront = 5;
+	sideback = -1;
+	blocking = true;
+}
+
+linedef	// 5
+{
+	v1 = 7;
+	v2 = 6;
+	sidefront = 6;
+	sideback = 7;
+	twosided = true;
+}
+
+linedef	// 6
+{
+	v1 = 0;
+	v2 = 2;
+	sidefront = 8;
+	sideback = -1;
+	blocking = true;
+}
+
+linedef	// 7
+{
+	v1 = 8;
+	v2 = 7;
+	sidefront = 9;
+	sideback = 10;
+	twosided = true;
+}
+
+linedef	// 8
+{
+	v1 = 6;
+	v2 = 1;
+	sidefront = 11;
+	sideback = 12;
+	twosided = true;
+}
+
+linedef	// 9
+{
+	v1 = 9;
+	v2 = 12;
+	sidefront = 13;
+	sideback = 14;
+	twosided = true;
+}
+
+linedef	// 10
+{
+	v1 = 11;
+	v2 = 10;
+	sidefront = 15;
+	sideback = 16;
+	twosided = true;
+}
+
+linedef	// 11
+{
+	v1 = 12;
+	v2 = 11;
+	sidefront = 17;
+	sideback = 18;
+	twosided = true;
+}
+
+linedef	// 12
+{
+	v1 = 10;
+	v2 = 9;
+	sidefront = 19;
+	sideback = 20;
+	twosided = true;
+}
+
+linedef	// 13
+{
+	v1 = 13;
+	v2 = 14;
+	sidefront = 21;
+	sideback = 22;
+	twosided = true;
+}
+
+linedef	// 14
+{
+	v1 = 14;
+	v2 = 15;
+	sidefront = 23;
+	sideback = 24;
+	twosided = true;
+}
+
+linedef	// 15
+{
+	v1 = 15;
+	v2 = 16;
+	sidefront = 25;
+	sideback = 26;
+	twosided = true;
+}
+
+linedef	// 16
+{
+	v1 = 16;
+	v2 = 13;
+	sidefront = 27;
+	sideback = 28;
+	twosided = true;
+}
+
+sidedef	// 0
+{
+	sector = 1;
+}
+
+sidedef	// 1
+{
+	texturebottom = "BRICK12";
+	sector = 0;
+}
+
+sidedef	// 2
+{
+	texturemiddle = "BSTONE2";
+	sector = 0;
+}
+
+sidedef	// 3
+{
+	texturemiddle = "BSTONE2";
+	sector = 0;
+}
+
+sidedef	// 4
+{
+	texturemiddle = "BSTONE2";
+	sector = 0;
+}
+
+sidedef	// 5
+{
+	texturemiddle = "BSTONE2";
+	sector = 0;
+}
+
+sidedef	// 6
+{
+	sector = 1;
+}
+
+sidedef	// 7
+{
+	texturebottom = "BRICK12";
+	sector = 0;
+}
+
+sidedef	// 8
+{
+	texturemiddle = "BSTONE2";
+	sector = 0;
+}
+
+sidedef	// 9
+{
+	sector = 1;
+}
+
+sidedef	// 10
+{
+	sector = 0;
+}
+
+sidedef	// 11
+{
+	sector = 1;
+}
+
+sidedef	// 12
+{
+	texturebottom = "BRICK12";
+	sector = 0;
+}
+
+sidedef	// 13
+{
+	sector = 2;
+}
+
+sidedef	// 14
+{
+	texturebottom = "BRICK12";
+	sector = 0;
+}
+
+sidedef	// 15
+{
+	sector = 2;
+}
+
+sidedef	// 16
+{
+	texturebottom = "BRICK12";
+	sector = 0;
+}
+
+sidedef	// 17
+{
+	sector = 2;
+}
+
+sidedef	// 18
+{
+	sector = 0;
+}
+
+sidedef	// 19
+{
+	sector = 2;
+}
+
+sidedef	// 20
+{
+	texturebottom = "BRICK12";
+	sector = 0;
+}
+
+sidedef	// 21
+{
+	texturebottom = "BRICK7";
+	sector = 3;
+}
+
+sidedef	// 22
+{
+	sector = 0;
+}
+
+sidedef	// 23
+{
+	texturebottom = "BRICK7";
+	sector = 3;
+}
+
+sidedef	// 24
+{
+	sector = 0;
+}
+
+sidedef	// 25
+{
+	texturebottom = "BRICK7";
+	sector = 3;
+}
+
+sidedef	// 26
+{
+	sector = 0;
+}
+
+sidedef	// 27
+{
+	texturebottom = "BRICK7";
+	sector = 3;
+}
+
+sidedef	// 28
+{
+	sector = 0;
+}
+
+sector	// 0
+{
+	heightfloor = 0;
+	heightceiling = 152;
+	texturefloor = "CEIL5_1";
+	textureceiling = "CEIL5_1";
+	lightlevel = 216;
+	rotationceiling = 315.0;
+}
+
+sector	// 1
+{
+	heightfloor = 0;
+	heightceiling = 152;
+	texturefloor = "CRATOP2";
+	textureceiling = "CEIL5_1";
+	lightlevel = 216;
+	rotationceiling = 315.0;
+}
+
+sector	// 2
+{
+	heightfloor = 0;
+	heightceiling = 152;
+	texturefloor = "CRATOP2";
+	textureceiling = "CEIL5_1";
+	lightlevel = 216;
+	rotationceiling = 315.0;
+}
+
+sector	// 3
+{
+	heightfloor = -128;
+	heightceiling = 152;
+	texturefloor = "CEIL5_1";
+	textureceiling = "CEIL5_1";
+	lightlevel = 216;
+	rotationceiling = 315.0;
+	xpanningfloor = 12.0;
+	ypanningfloor = -5.0;
+	xpanningceiling = 0.0;
+	ypanningceiling = 0.0;
+	rotationfloor = 0.0;
+	xscaleceiling = 1.0;
+	yscaleceiling = 1.0;
+	xscalefloor = 1.0;
+	yscalefloor = 1.0;
+	liquidheight = -5;
+      	liquidtexture = "FWATER1";
+}
+
+thing	// 0
+{
+	x = -192.0;
+	y = -352.0;
+	angle = 90;
+	type = 1;
+	skill1 = true;
+	skill2 = true;
+	skill3 = true;
+	skill4 = true;
+	skill5 = true;
+	single = true;
+	dm = true;
+	coop = true;
+}
+
+thing	// 1
+{
+	x = 0.0;
+	y = 384.0;
+	angle = 270;
+	type = 3002;
+	skill1 = true;
+	skill2 = true;
+	skill3 = true;
+	skill4 = true;
+	skill5 = true;
+	single = true;
+	dm = true;
+	coop = true;
+}
