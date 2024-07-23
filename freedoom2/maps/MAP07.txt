@@ -468,6 +468,8 @@ sector	// 3
 	yscalefloor = 1.0;
 	liquidheight = -5;
       	liquidtexture = "FWATER1";
+	liquidtrans = 0.5;
+	liquidlight = 192;
 }
 
 thing	// 0
